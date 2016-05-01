@@ -19,6 +19,6 @@ Run the client and connect a server hostname with on the operating port-number a
 
   $ ./client localhost 8080 hi
   
-you should recieve a message back saying 
+you should receive a message back saying 
 
   message from server: HI
