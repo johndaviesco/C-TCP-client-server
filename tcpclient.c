@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
 	char buffer[bufsize];
 
 	if (argc < 4) {
-		printf("\n usage: \n\n $ %s hostname port sting\n\n", argv[0]);
+		printf("\n usage: \n\n $ %s hostname port string\n\n", argv[0]);
 		return EXIT_FAILURE;
 	}
 
@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 	// check socket is less than zero
 	if (sock < EXIT_SUCCESS)
 	{
-		fprintf(stderr, "ERROR: cannot creat a socket\n");
+		fprintf(stderr, "ERROR: cannot create a socket\n");
 		return EXIT_FAILURE;
 	}
 
